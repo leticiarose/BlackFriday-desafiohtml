@@ -14,7 +14,9 @@
 
 # Deploy:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8fbc7dc5-9bba-4b68-950a-939181626e1d/deploy-status)](https://app.netlify.com/sites/blackfridaylandingpage/deploys)
+### If you want to view👉 [Click here!](https://blackfridaylandingpage.netlify.app)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8fbc7dc5-9bba-4b68-950a-939181626e1d/deploy-status)](https://blackfridaylandingpage.netlify.app)
 
 ## How to use
 <h2>
