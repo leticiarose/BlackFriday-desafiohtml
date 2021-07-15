@@ -12,4 +12,33 @@ function changeCircleColor(color) {
   circle.style.background = color;
 }
 
+const form = document.getElementById('form')
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  // let nome = document.getElementById('nome').value;
+  let email = document.getElementById('email').value;
+  let data = {
+    // nome,
+    email,
+  }
+  let convertData = JSON.stringify(data);
+
+  localStorage.setItem('lead', convertData)
+
+  let newsletter = document.getElementById('newsletter')
+
+  let carregando = `<p>Carregando...</p>`
+
+  let pronto = `<p>Cadastro finalizado, ${email} </p>`
+
+
+  newsletter.innerHTML = carregando
+
+
+  setTimeout(() => {
+    newsletter.innerHTML = pronto
+  }, 1000)
+
+})
 
