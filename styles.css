@@ -23,6 +23,16 @@ header .logo{
   max-width: 100px;
 }
 
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #b1644c;
+  clip-path: circle(70% at right -20%);
+}
+
 .menu ul {
   padding:0px;
   margin:0px;
@@ -85,6 +95,8 @@ header .logo{
 .content .imgBox img{
   max-width: 400px;
 }
+
+
 
 
 
