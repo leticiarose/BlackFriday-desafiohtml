@@ -178,6 +178,36 @@ header .logo{
   cursor: pointer;
 }
 
+section.products{
+  background: #b1644c;
+}
+section.products h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px; 
+  text-shadow: 6px 4px 2px rgba(66, 66, 73, 0.7);
+}
+section.products ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+section.products ul li {
+  flex: 1;
+  max-width: 26%;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center; 
+}
+section.products ul li img {
+  max-height: 120px; 
+}
+section.products img:hover{
+  transform: translateY(-20px);
+}
 
 
 
