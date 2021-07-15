@@ -209,6 +209,11 @@ section.products img:hover{
   transform: translateY(-20px);
 }
 
+footer {
+  flex-direction: row;
+  padding: 24px 10%; 
+  background: #80331d;
+}
 
 
 
